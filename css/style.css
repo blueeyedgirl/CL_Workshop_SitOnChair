@@ -43,14 +43,14 @@
     font-family: 'Raleway';
 }
 
-/* --------------- szerokość strony -----------------*/
+/* ------------------------------ site width -------------------------------*/
 
 .siteWidth {
 	width: 1054px;
 	margin: 0 auto;
 }
 
-/* -------------- stylowanie header ---------------- */
+/* ---------------------------- header style ------------------------------ */
 
 header .siteWidth {
 	height: 40px;
@@ -107,7 +107,7 @@ header .navigation {
 	margin-right: 0;
 }
 
-/* ----------------- stylowanie section 1 ------------------- */
+/* -------------------------- section 1 style ---------------------------- */
 
 #section1 .siteWidth {
 	background: rgba(250,250,250,1);
@@ -141,7 +141,7 @@ header .navigation {
 	width: 12%;   /*120px*/
 	text-align: center;
 	font-size: 70px;
-	font-weight: 300;
+	font-weight: 100;
 	color: #24ba9f;
 }
 
@@ -177,6 +177,7 @@ header .navigation {
 	text-align: center;
 	padding-left: 35px;
 	padding-right: 35px;
+	margin-bottom: 25px;
 }
 
 .moreButton {
@@ -186,10 +187,11 @@ header .navigation {
 	color: white;
 	font-size: 1.3em;
 	text-align: center;
-	margin-top: 25px;
 	border-radius: 8px 8px 8px 8px;
 	padding-top: 10px;
 	box-sizing: border-box;
+	width: 50%;       /* center horizontally */
+	margin: 0 auto;   /* center horizontally */
 }
 
-/* stylowanie footer */
+/* ---------------------------- footer style ------------------------------ */
