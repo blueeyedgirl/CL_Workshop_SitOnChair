@@ -221,6 +221,7 @@ header .navigation {
 	height: 307px;
 	background-color: white;
 	position: relative;
+	background-color: #ffffff;
 }
 
 #section2 .siteWidth .box1, #section2 .siteWidth .box2, #section2 .siteWidth .boxText {
@@ -244,8 +245,8 @@ header .navigation {
 }
 
 .box2 {
-	width: 288px;
-	height: 198px;
+	width: 286px;
+	height: 196px;
 	background-image: url(../images/box2_img.jpg);
 	background-size: contain;
 	border: 1px solid #dfdfdf;
@@ -304,4 +305,362 @@ header .navigation {
 	padding-top: 15px;
 }
 
+/* -------------------------- section 3 style ---------------------------- */
+
+#section3 .siteWidth {
+	height: 635px;
+	background-color: #f1f1f1;
+	position: relative;
+}
+
+#section3 .absolutePositioning {
+	/*height: 200px;*/
+	top: -44px;
+}
+
+#section3 .siteWidth .absolutePositioning .centerElements {
+	width: 88%;       /* center horizontally */
+	margin: 0 auto;   /* center horizontally */
+}
+
+.sectionName {
+	width: 281px;
+	color: #606060;
+	font-size: 1.2em;
+	font-weight: 200;
+	margin-left: 62px;
+	padding-top: 37px;
+	padding-bottom: 5px;
+	border-bottom: 7px solid #24ba9f;
+}
+
+.bookmark {
+    width: 286px;
+    height: 436px;
+	background-color: #f9f9f9;
+    border: 2px solid #d6d6d6;
+    float: left;
+    margin-left: 0px;
+    margin-right: 18px;
+}
+
+.padding {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.padding h1, .padding .circle, .padding .button {
+    text-align: center;
+}
+
+.padding h1 {
+    font-weight: 400;
+    font-size: 1.3em;
+    line-height: 2em;
+	color: #27c7ab;
+}
+
+.padding p {
+    margin-top: 40px;
+    margin-bottom: 55px;
+}
+
+.button {
+    background-color: #27c7ab;
+    color: white;
+	font-size: 0.9em;
+    padding: 7px;
+    position: absolute;
+	left: 33%;
+	top: 390px;
+    width: 107px;
+	height: 30px;
+    box-sizing: border-box;
+	border-radius: 7px 7px 7px 7px;
+}
+
+.white {
+    background-color: white;
+    height: 46px;
+    width: 46px;
+    border: 2px solid #d6d6d6;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: 117px;
+}
+
+.dark {
+    background-color: #c2c2c2;
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+}
+
+.circle {
+	width: 110px;
+	height: 110px;
+	background-color: white;
+	border: 2px solid #d9d9d9;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 14px;
+	padding-top: 15px;
+	color: #c1c1c1;
+	font-weight: bold;
+	font-size: 14px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.bigNumber {
+	font-size: 40px;
+}
+
+sup {
+	position: absolute;
+	bottom: 70px;
+}
+
+.features {
+	/*position: absolute;*/
+	margin-top: 35px;
+}
+
+[class*="feature-"] {
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	padding-top: 8px;
+	box-sizing: border-box;
+	font-size: 1.25em;
+}
+
+.feature-1, .feature-3 {
+	background-color: #e4e4e4;
+	color: #a3a3a3;
+}
+
+.feature-2, .feature-4 {
+	background-color: #f1f1f1;
+	color: #7e7e7e;
+}
+
+.highlight {
+	background-color: #27c7ab;
+	border-color: #27c7ab;
+}
+
+.highlight .white {
+	background-color: #27c7ab;
+	border-color: #27c7ab;
+}
+
+.highlight .dark {
+	background-color: #ffffff;
+}
+
+.highlight .circle {
+	color: #27c7ab;
+	border-color: #ffffff;
+}
+
+.highlight h1 {
+	color: #ffffff;
+}
+
+.highlight .feature-1, .highlight .feature-3 {
+	background-color: #ffffff;
+}
+
+.highlight .feature-2, .highlight .feature-4 {
+	color: #a3a3a3;
+}
+
+.highlight .button {
+	background-color: #ffffff;
+	color: #27c7ab;
+}
+
+/* -------------------------- section 4 style ---------------------------- */
+
+#section4 .siteWidth {
+	height: 462px;
+	background-color: #ffffff;
+}
+
+#section4 > div > div {
+	padding-top: 30px;
+}
+
+form {
+	margin-top: 40px;
+}
+
+form .left {
+	width: 52%;
+	margin-left: 62px;
+	float: left;
+}
+
+input {
+	width: 100%;
+	height: 57px;
+	border: 1px solid #abe5db;
+	margin-bottom: 23px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+textarea {
+	width: 100%;
+	border: 1px solid #abe5db;
+	padding-top: 10px;
+	resize: none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+	font-size: 2.1em;
+	color: #dadada;
+	padding-left: 13px;
+}
+input::-moz-placeholder, textarea::-webkit-input-placeholder {
+	font-size: 2.1em;
+	color: #dadada;
+	padding-left: 13px;
+}
+input:-ms-input-placeholder, textarea::-webkit-input-placeholder {
+	font-size: 2.1em;
+	color: #dadada;
+	padding-left: 13px;
+}
+input:-moz-placeholder, textarea::-webkit-input-placeholder {
+	font-size: 2.1em;
+	color: #dadada;
+	padding-left: 13px;
+}
+
+form .right {
+	width: 38%;
+	margin: 0;
+	padding-right: 20px;
+	float: left;
+}
+
+.imageContainer {
+	width: 302px;
+	height: 151px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	position: relative;
+}
+
+.imageContainer img {
+	width: 75%;
+	margin-left: 20px;
+	position: absolute;
+	top: -30px;
+}
+
+.checkboxContainer {
+	width: 302px;
+	margin: 0 auto;
+	margin-bottom: 32px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display:inline-block;
+	float: left;
+    width:40px;
+    height:40px;
+    margin:0 10px 0 0;
+    vertical-align: middle;
+    background:url(../images/form_ok.jpg) no-repeat;
+	background-position: center;
+	background-size: 90%;
+	border: 1px solid #24baa0;
+}
+
+/* to dla zaznaczonego checkboxa */
+/*input[type="checkbox"]:checked + label span {
+    background:url(../images/form_ok.jpg) no-repeat;
+	background-position: center;
+	background-size: 90%;
+	border: 1px solid #24baa0;
+}*/
+
+.checkboxContainer label {
+	color: #a3a3a3;
+	font-size: 1.05em;
+	line-height: 130%;
+	display: inline-block;
+}
+
+.submit {
+	width: 302px;
+	height: 62px;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #24baa0;
+	border-radius: 7px 7px 7px 7px;
+	color: white;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 15px;
+	box-sizing: border-box;
+}
+
 /* ---------------------------- footer style ------------------------------ */
+
+footer .siteWidth {
+	height: 111px;
+	background-color: #ffffff;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.legal {
+	width: 595px;
+	height: 30px;
+	font-size: 0.9em;
+	font-weight: 400;
+	color: #a3a3a3;
+	margin-left: 62px;
+	padding-top: 10px;
+	float: left;
+}
+
+.socialMedia {
+	width: 135px;
+	float: left;
+
+}
+
+.socialMedia img {
+	width: 30px;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.logo-end {
+	width: 200px;
+	height: 35px;
+	float: right;
+	color: #a3a3a3;
+	text-align: center;
+	padding-right: 25px;
+	padding-top: 10px;
+}
+
+.logo-end span {
+	font-weight: bold;
+}
