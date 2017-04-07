@@ -102,6 +102,7 @@ header .navigation {
 	margin-left: 25px;
 	margin-right: 25px;
 	font-size: 0.8em;
+	position: relative;
 }
 
 .navigation ul li:first-child {
@@ -110,6 +111,42 @@ header .navigation {
 
 .navigation ul li:last-child {
 	margin-right: 0;
+}
+
+/* submenu */
+
+
+.navigation>ul>li>ul {
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: -10px;
+	background-color: #000000;
+	font-size: 1.4em;
+	z-index: 1;
+}
+
+#triangle {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 25px;
+	width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+	border-top: 10px solid transparent;
+    border-bottom: 10px solid black;
+	z-index: 1;
+}
+
+.navigation>ul>li>ul>li {
+	margin: 0 17px 17px 17px;
+	width: 100px;
+}
+
+.navigation>ul>li>ul>li:first-child {
+	margin: 17px;
 }
 
 /* ------------- absolute positioning for section elements --------------- */
@@ -146,10 +183,8 @@ header .navigation {
 
 .toggle {
 	width: 12%;   /*120px*/
-	/* new*/
 	height: 217px;
 	position: relative;
-	/*new*/
 	text-align: center;
 	font-size: 70px;
 	font-weight: 100;
