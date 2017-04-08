@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function(){
         if (submenu !== null) {
             submenu.style.display = "block";
             triangle.style.display = "block";
-            console.log(triangle);
         }
     });
 
@@ -73,6 +72,28 @@ document.addEventListener("DOMContentLoaded", function(){
              pictureCounter = 2;
          }
          sliderLis[pictureCounter].classList.add("visible");
+      });
+
+      // dropdown
+
+      var arrowsArray = Array.from(document.getElementsByClassName("list_arrow"));
+
+      //ustawiam jeszcze raz visibility none, bo za pierwszym razem eventListener nie widzi tego atrybutu w ogóle chociaż był ustawiony w CSS
+      var allListPanels = Array.from(document.getElementsByClassName("list_panel"));
+      allListPanels.forEach(function(els){
+          els.style.display = "none";
+      });
+
+      arrowsArray.forEach(function(elements){
+          elements.addEventListener("click", function(event){
+              var listPanel = this.parentNode.querySelector(".list_panel");
+              if (listPanel.style.display == "none") {
+                  listPanel.style.display = "block";
+              }
+              else {
+                  listPanel.style.display = "none";
+              }
+          });
       });
 
 });
